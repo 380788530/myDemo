@@ -85,5 +85,9 @@ public class DemoController {
 		System.out.println("{\"data\":"+fUsersList.toString()+"}");
 		return "{\"data\":"+fUsersList.toString()+"}";
 	}
+	
+	public static void main(String[] args){  
+	    
+	}
 
 }
