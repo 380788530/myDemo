@@ -11,6 +11,10 @@ public class Tools {
 	public static String pattern_yyyymmdd = "yyyy-MM-dd";
 	public static String yyyymmddHHmmss = "yyyyMMddHHmmss";
 	public static String formatyyyyMMddhhmmss = "yyyy-MM-dd HH:mm:ss";
+
+	public static void main(String[] args){
+		System.out.println("测试3");
+	}
 	
 	/**
 	 * 判断对象是否为空
@@ -159,7 +163,7 @@ public class Tools {
 	
 	/**
 	 * 身份证中间四位显示成*
-	 * @param obj
+	 * @param moilePhone
 	 * @return
 	 */
     public static String  subMoilePhone(String moilePhone){
