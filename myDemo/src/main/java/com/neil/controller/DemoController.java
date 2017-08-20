@@ -90,6 +90,8 @@ public class DemoController {
 		System.out.println("测试");
 		System.out.println("ceshi2");
 
+		System.out.println("测试3");
+
 	}
 
 }
