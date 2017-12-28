@@ -22,10 +22,10 @@ public class DemoController {
 	
 	@Autowired
 	private DemoService demoService;
-	
+
 	@RequestMapping(value = "/login")
 	public String  login(HttpServletRequest request,HttpServletResponse response){
-		
+		System.out.println("111");
 		return "page/login";
 	}
 	
