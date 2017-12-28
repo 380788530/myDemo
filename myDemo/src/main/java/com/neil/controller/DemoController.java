@@ -26,6 +26,7 @@ public class DemoController {
 	@RequestMapping(value = "/login")
 	public String  login(HttpServletRequest request,HttpServletResponse response){
 		System.out.println("111");
+		System.out.println("222");
 		return "page/login";
 	}
 	
